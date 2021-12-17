@@ -3,7 +3,6 @@
 
 
 .body {
-  width: 100%;
   background-color: #2A2C2F;
   font-family: inter;
   -moz-osx-font-smoothing: grayscale;
@@ -17,14 +16,14 @@
 
 .page {
   min-width: 320px;
-  max-width: 1184px;
+  max-width: 1280px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 /* -------header------ */
 .header {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -46,7 +45,6 @@
   font-size: 24px;
   line-height: 116%;
   font-weight: 400;
-  text-decoration-line: underline;
 }
 
 .header__lang-link {  
@@ -54,36 +52,47 @@
   margin-right: 18px;
   color: #FFFFFF;
 }
+.header__lang-link_activ {
+  text-decoration-line: underline;
+}
 
 .header__lang-link:nth-last-child(1){
   margin: 0;
 }
-@media screen and (max-width: 768px) {
-  .header__lang-links {
-    margin: 46px 24px 0 0;
+
+@media screen and (max-width: 1140px) {
+ 
   }
 
+@media screen and (max-width: 960px) {
   .header__logo {
-    margin: 28px 0 0 24px;
+    margin: 28px 0 0 28px;
   }
-} 
 
-@media screen and (max-width: 320px) {
   .header__lang-links {
-    margin: 30px 16px 0 0;
+  margin: 46px 24px 0 0;
+  }
   }
 
+@media screen and (max-width: 620px) {
   .header__logo {
+    width: 142px;
+    height: 42px;
     margin: 16px 0 0 16px;
   }
-} 
+
+  .header__lang-links {
+    margin: 30px 16px 0 0;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  }
 
 /* ----------lead---------- */
 .lead {
   width: 100%;
   display: flex;
   flex-direction: column;
-  
 }
 
 .lead__title {
@@ -106,15 +115,19 @@
   text-align: center;
 }
 
+.lead__imgae-container {
+  max-width: 984px;
+  overflow: hidden;
+  margin: auto;
+}
+
 .lead__image{
- object-fit: cover;
- margin: 0;
- min-height: 615px;
+  width:100%;
+  object-fit: cover;
 }
 
 .lead__caption {
   margin: 8px 0 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -140,7 +153,16 @@
   .lead__image{
     min-height: 480px;
     }
+    .lead__caption {
+      margin-left: 24px;
+    }
   }
+
+  @media screen and (max-width: 670px) {
+    .lead__title {
+      font-size: 60px;
+      }
+    }
 
 @media screen and (max-width: 620px) {
   .lead__image{
@@ -159,5 +181,8 @@
     margin: 0 auto 40px;
     font-size: 16px;
     line-height: 1.2;
+    }
+    .lead__caption {
+      margin-left: 24px;
     }
   }
