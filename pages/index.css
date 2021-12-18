@@ -284,4 +284,73 @@
     .photo__grid {
       max-width: 288px ;
     }
+    .photo__list {
+      gap:12px;
+    }
+    
   }
+
+/* --------------------------places------------------------ */
+.places {
+  display: grid;
+ row-gap: 80px;
+}
+
+.place {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-areas:
+  "title website"
+  "image paragraph"
+  "image paragraph";
+  max-width: 984px;
+  gap: 40px 48px;
+  
+}
+
+.place__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1;
+  grid-area: title;
+}
+
+.place__image {
+  object-fit: cover;
+  max-width: 460px;
+  grid-area: image;
+}
+
+.place__website {
+  grid-area: website;
+  align-self: end;
+}
+
+.place__url {
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  padding-bottom: 12px;
+}
+
+.place__link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+.place__paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  grid-area: paragraph;
+}
