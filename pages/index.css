@@ -293,7 +293,7 @@
 /* --------------------------places------------------------ */
 .places {
   display: grid;
- row-gap: 80px;
+  row-gap: 80px;
 }
 
 .place {
@@ -353,4 +353,78 @@
   font-size: 18px;
   line-height: 1.6;
   grid-area: paragraph;
+}
+
+@media screen and (max-width: 1140px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    max-width: 928px;
+    column-gap: 32px;
+  }
+
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .places {
+    row-gap: 73px;
+  }
+
+  .place {
+    grid-template-columns: 340px 1fr;
+    max-width: 720px;
+    column-gap: 28px;
+  }
+
+  .place__image {
+    max-width: 340px;
+  }
+  
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .places {
+    row-gap: 50px;
+  }
+  
+  .place {
+    grid-template-columns: 320px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph";
+    max-width: 984px;
+    gap: 32px 0;
+    
+  }
+  
+  .place__title {
+    font-size: 32px;
+    padding: 0 16px;
+  }
+
+  .place__paragraph {
+    padding: 0 16px;
+  }
+
+  .place__website {
+    padding: 0 16px;
+  }
+  
+  .place__image {
+    max-width: 320px;
+  }
+  
 }
