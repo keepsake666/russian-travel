@@ -1,0 +1,17 @@
+.lead__image-container {
+  max-width: 984px;
+  overflow: hidden;
+  margin: auto;
+}
+
+@media screen and (max-width: 1140px) {
+  .lead__image-container {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .lead__image-container {
+    max-width: 768px;
+  }
+}
