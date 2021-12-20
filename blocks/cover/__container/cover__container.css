@@ -22,8 +22,8 @@
   position: absolute;
   opacity: 0.3;
 }
-  
-.cover__container:hover:before{
+
+.cover__container:hover:before {
   opacity: 0.8;
   transition: 0.4s;
 }

@@ -5,20 +5,20 @@
 
 @media screen and (max-width: 1026px) {
   .photo__grid {
-    max-width: 928px ;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 770px) {
   .photo__grid {
-    max-width: 720px ;
+    max-width: 720px;
     margin: 88px auto;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo__grid {
-    max-width: 288px ;
+    max-width: 288px;
     margin: 64px auto;
   }
 }
