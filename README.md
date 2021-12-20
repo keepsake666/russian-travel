@@ -7,5 +7,5 @@
 - выполнена адаптивная верстка от стандартных ноутбуков до мобильных устройств;
 - с применением технологий: Flexbox верстка и ”Grid Layout“;
 
-[Работа выложенна на GitHub Pages] (https://tinypng.com/)
+[Работа выложенна на GitHub Pages] (https://keepsake666.github.io/russian-travel/index.html)
 
