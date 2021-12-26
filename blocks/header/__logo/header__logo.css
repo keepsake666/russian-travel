@@ -4,19 +4,11 @@
   background-size: cover;
   width: 176px;
   height: 52px;
-  margin: 28px 0 0 48px;
 }
-
-@media screen and (max-width: 1024px) {
-  .header__logo {
-    margin: 28px 0 0 28px;
-  }
-  }
 
 @media screen and (max-width: 425px) {
   .header__logo {
     width: 142px;
     height: 42px;
-    margin: 16px 0 0 16px;
-  }
+  } 
   }

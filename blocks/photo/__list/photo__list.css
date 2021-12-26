@@ -1,14 +1,30 @@
 .photo__list {
+  max-width: 1184px;
   padding: 0;
-  margin: 0;
+  margin: 92px auto;
   list-style-type: none;
   display: grid;
   gap:16px;
   grid-template-columns: repeat(auto-fit,minmax(284px, 1fr));
 }
 
+@media screen and (max-width: 1026px) {
+  .photo__list {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .photo__list {
+    max-width: 720px;
+    margin: 88px auto;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .photo__list {
     gap:12px;
+    max-width: 288px;
+    margin: 64px auto;
   }
 }

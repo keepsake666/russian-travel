@@ -3,7 +3,6 @@
   row-gap: 80px;
 }
 
-
 @media screen and (max-width: 770px) {
   .places {
     row-gap: 73px;

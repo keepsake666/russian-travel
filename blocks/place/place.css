@@ -7,7 +7,7 @@
   "image paragraph"
   "image paragraph";
   max-width: 984px;
-  gap: 40px 48px;
+  gap: 48px 40px;
 }
 
 
@@ -37,6 +37,5 @@
     "paragraph";
     max-width: 984px;
     gap: 32px 0;
-    
   }
 }
