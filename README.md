@@ -1,11 +1,16 @@
 # Проект: Путешествие по России
 
 ### Обзор
-Проект выполнен по макету из ФИГМЫ.
+Одностраничный сайт рассказывает о красивых и интересных местах России, которые отлично подойдут для путешествий.
+
+**Стек технологий**
 
 - файловая структуры по правилам Nested БЭМ;
 - выполнена адаптивная верстка от стандартных ноутбуков до мобильных устройств;
 - с применением технологий: Flexbox верстка и ”Grid Layout“;
 
-[Работа выложенна на GitHub Pages] (https://keepsake666.github.io/russian-travel/index.html)
+**Макет и Github pages**
+
+* [Работа выложенна на GitHub Pages](https://keepsake666.github.io/russian-travel/index.html)
+* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
